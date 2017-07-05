@@ -1,0 +1,28 @@
+.bd {
+			font-family: "roboto"
+		}
+		.clearfix:after {
+			content: "";
+			display: block;
+			width: 0;
+			height: 0;
+			visibility: hidden;
+			clear: both;
+			zoom:1;
+		}
+		.clearfix {
+			zoom:1;
+		}
+		
+		.left {
+			float:left;
+			width: 50%;
+		}
+		.right {
+			float:right;
+			width: 50%;
+		}
+		.btn-bg {
+			background-color: rgb(200,20,120);
+			border-color: rgb(200,20,120);  
+		}

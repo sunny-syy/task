@@ -1,0 +1,49 @@
+html,body,div {
+			margin: 0;
+			padding: 0;
+		}
+		html,body {
+			width: 100%;
+		}
+		.clearfix:after {
+			content: "";
+			display: block;
+			width: 0;
+			height: 0;
+			visibility: hidden;
+			clear: both;
+			zoom:1;
+		}
+		.clearfix {
+			zoom:1;
+		}
+		.left {
+			float: left;
+			height: 100px;
+			line-height: 100px;
+			border: 1px solid #ccc;
+			text-align: center;
+		}
+		.a,.c {
+			width: 180px;
+
+		}
+		.b {
+			width: 600px;
+		}
+		.group4 {
+			display: -moz-box; /* Firefox */ 
+			display: -ms-flexbox; /* IE10 */ 
+			display: -webkit-box; /* Safari */ 
+			display: -webkit-flex; /* Chrome, WebKit */ 
+			display: box; 
+			display: flexbox; 
+			display: flex; 
+			width: 100%;
+		}
+		.b-auto {
+			-moz-flex:1;/* Firefox */
+			-webkit-flex: 1; /* Chrome */
+		    -ms-flex: 1; /* IE 10 */
+			flex: 1; 
+		}
